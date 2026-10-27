@@ -1,0 +1,23 @@
+button{
+    background-color: aqua;
+    color: aliceblue;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    
+}
+
+h3{
+    text-align: center;
+    font-size: 30px;
+    background-color: black;
+    color: aliceblue;
+    line-height: 80px;
+    text-shadow: 0px 0px 8px aqua;
+}
+
+img{
+    width: 300px;
+    height: 250px;
+}
+

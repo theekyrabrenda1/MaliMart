@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page - Sleek Fashions KE</title>
+    <link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+    <a href="index.html" target="_self">Home Page</a>
+    <a href="services.html" target="_blank">Services Page</a>
+    <a href="employee.html" target="_self">Employees Page</a>
+    <form action="" >
+        <!--Title of a form is called a legend-->
+        <legend>Join Our Team Today!</legend>
+        <br>
+        <label for="fname">Enter you full name:</label>
+        <input type="text" id="fname" placeholder="e.g Mary Jeniffer Brown" required>
+        <br><br>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" placeholder="e.g marybrown1@gmail.com" required>
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="Enter a strong password" required>
+        <br><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" placeholder="+254700000000" required>
+        <br><br>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" placeholder="22" required>
+        <br><br>
+
+        <label for="date">Date of Birth:</label>
+        <input type="date" id="date" required>
+        <br><br>
+
+        <label for="datetime">Date & Time:</label>
+        <input type="datetime-local" id="datetime">
+        <br><br>
+
+        <label for="file">Upload File:</label>
+        <input type="file" id="file">
+        <br><br>
+
+        <!--radio buttons-->
+        <label for="gender">Gender:</label>
+        <input type="radio" id="gender" checked>Male
+        <input type="radio" id="gender">Female
+        <br><br>
+
+        <!--Checkboxes-->
+        <label for="checkbox">Choose the products you're interested in buying:</label>
+        <br>
+        <input type="checkbox" name="checkbox" id="checkbox">Shoes
+        <br>
+        <input type="checkbox" name="checkbox" id="checkbox">Bags
+        <br>
+        <input type="checkbox" name="checkbox" id="checkbox">Men's wear
+        <br>
+        <input type="checkbox" name="checkbox" id="checkbox">Women wear
+        <br><br>
+  
+
+        
+        <label for="mchoice">Where are you located?</label>
+        <select name="county" id="county" required>
+            <option value="county">Mombasa</option>
+            <option value="county">Kisumu</option>
+            <option value="county">Eldoret</option>
+            <option value="county">Nairobi</option>
+        </select>
+        <br><br>
+
+        <label for="comments">Enter your comments here:</label><br><br>
+        <textarea name="comments" id="comments" rows="3" cols="80"></textarea>
+        <br><br>
+
+        <button>Register</button>
+
+
+    </form>
+</body>
+</html>
